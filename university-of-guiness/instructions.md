@@ -1,0 +1,3 @@
+# Instructions  
+
+The University of Guiness charges $3000 per semester for in-state tuition and $4500 per  semester for  out-of-state tuition.  In  addition,  room and board is $2500 per semester for in-state students and  $3500  per semester for out-of-state students.  Write  a  program  that  prompts the  user for their residential status (i.e., in-state or out-of-state) and whether they require room and board (Y or N). The program should then compute and output their bill  for that semester.
