@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Grant Bossa
+// 6-3-2025
 // Fix the Errors #3 Programming Project
 // COSC 1030
 //
@@ -17,6 +17,7 @@ int main()
 
 	float firstNumber;
 	float secondNumber;
+	float swapNumber;
 
 	// Prompt user to enter the first number.
 	cout << "Enter the first number" << endl;
@@ -33,7 +34,7 @@ int main()
 		<< " and " << secondNumber << endl;
 
 	// Now we will swap the values.
-	firstNumber = secondNumber; secondNumber = firstNumber;
+	swapNumber = firstNumber; firstNumber = secondNumber; secondNumber = swapNumber;
 
 	// Output the values.
 	cout << "After swapping, the values of the two numbers are "

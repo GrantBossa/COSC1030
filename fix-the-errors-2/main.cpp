@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Grant Bossa
+// 6-3-2025
 // Fix the Errors #2 Programming Project
 // COSC 1030
 //
@@ -16,7 +16,7 @@ int main()
 
 	float number;
 	int divider;
-	divider = 0;
+	divider = 2;
 
 	cout << "Hi there" << endl;
 	cout << "Please input a number and then hit return" << endl;
@@ -24,7 +24,7 @@ int main()
 
 	number = number / divider;
 
-	cout << "Half of your number is " << number << endl;
+	cout << "Half of your number (" << number*divider << ") is " << number << endl;
 
 	return 0;
 }
